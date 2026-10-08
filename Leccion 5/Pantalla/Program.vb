@@ -2,11 +2,12 @@ Imports System
 
 Module Program
     Sub Main()
-        Console.Title = "Mi primera consola"
-        Console.ForegroundColor = ConsoleColor.Red
-        Console.WriteLine("Alis Mariam")
-        Console.ForegroundColor = ConsoleColor.Blue
-        Console.WriteLine("Jimenez Olivo")
+        Console.Write("Hello ")
+        Console.Write("World!")
+        Console.WriteLine()
+        Console.WriteLine()
+
+        Console.WriteLine("Esta es otra linea")
         Console.ReadKey()
     End Sub
 End Module
